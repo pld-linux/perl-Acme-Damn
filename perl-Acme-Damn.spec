@@ -6,7 +6,7 @@
 %define	pdir	Acme
 %define	pnam	Damn
 Summary:	Acme::Damn - 'Unbless' Perl objects
-Summary(pl):	Acme::Damn - "odb³ogos³awianie" obiektów Perla
+Summary(pl.UTF-8):   Acme::Damn - "odbÅ‚ogosÅ‚awianie" obiektÃ³w Perla
 Name:		perl-Acme-Damn
 Version:	0.03
 Release:	1
@@ -26,12 +26,12 @@ reference. I can't think of any reason why you might want to do this,
 but just because it's of no use doesn't mean that you shouldn't be
 able to do it.
 
-%description -l pl
-Acme::Damn dostarcza jedn± funkcjê: damn(), która przyjmuje
-pob³ogos³awion± referencjê (obiekt perlowy) i odb³ogos³awia j±, aby
-zwróciæ oryginaln± referencjê. Nie znaleziono na razie powodu, ¿eby
-to robiæ, ale to, ¿e takie dzia³anie nie ma zastosowania, nie znaczy,
-¿e nie powinno daæ siê tego zrobiæ.
+%description -l pl.UTF-8
+Acme::Damn dostarcza jednÄ… funkcjÄ™: damn(), ktÃ³ra przyjmuje
+pobÅ‚ogosÅ‚awionÄ… referencjÄ™ (obiekt perlowy) i odbÅ‚ogosÅ‚awia jÄ…, aby
+zwrÃ³ciÄ‡ oryginalnÄ… referencjÄ™. Nie znaleziono na razie powodu, Å¼eby
+to robiÄ‡, ale to, Å¼e takie dziaÅ‚anie nie ma zastosowania, nie znaczy,
+Å¼e nie powinno daÄ‡ siÄ™ tego zrobiÄ‡.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
