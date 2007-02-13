@@ -6,7 +6,7 @@
 %define	pdir	Acme
 %define	pnam	Damn
 Summary:	Acme::Damn - 'Unbless' Perl objects
-Summary(pl.UTF-8):   Acme::Damn - "odbłogosławianie" obiektów Perla
+Summary(pl.UTF-8):	Acme::Damn - "odbłogosławianie" obiektów Perla
 Name:		perl-Acme-Damn
 Version:	0.03
 Release:	1
