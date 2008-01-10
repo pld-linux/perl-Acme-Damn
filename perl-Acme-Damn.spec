@@ -40,6 +40,7 @@ to robić, ale to, że takie działanie nie ma zastosowania, nie znaczy,
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
