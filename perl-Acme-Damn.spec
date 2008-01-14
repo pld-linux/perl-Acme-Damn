@@ -9,7 +9,7 @@ Summary:	Acme::Damn - 'Unbless' Perl objects
 Summary(pl.UTF-8):	Acme::Damn - "odbłogosławianie" obiektów Perla
 Name:		perl-Acme-Damn
 Version:	0.03
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -29,9 +29,9 @@ able to do it.
 %description -l pl.UTF-8
 Acme::Damn dostarcza jedną funkcję: damn(), która przyjmuje
 pobłogosławioną referencję (obiekt perlowy) i odbłogosławia ją, aby
-zwrócić oryginalną referencję. Nie znaleziono na razie powodu, żeby
-to robić, ale to, że takie działanie nie ma zastosowania, nie znaczy,
-że nie powinno dać się tego zrobić.
+zwrócić oryginalną referencję. Nie znaleziono na razie powodu, żeby to
+robić, ale to, że takie działanie nie ma zastosowania, nie znaczy, że
+nie powinno dać się tego zrobić.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -57,7 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorarch}/Acme
 %{perl_vendorarch}/Acme/*.pm
+%dir %{perl_vendorarch}/auto/Acme
 %dir %{perl_vendorarch}/auto/Acme/Damn
 %{perl_vendorarch}/auto/Acme/Damn/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Acme/Damn/*.so
