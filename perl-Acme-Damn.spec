@@ -62,6 +62,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Acme/*.pm
 %dir %{perl_vendorarch}/auto/Acme
 %dir %{perl_vendorarch}/auto/Acme/Damn
-%{perl_vendorarch}/auto/Acme/Damn/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Acme/Damn/*.so
 %{_mandir}/man3/*
