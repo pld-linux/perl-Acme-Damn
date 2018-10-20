@@ -8,13 +8,13 @@
 Summary:	Acme::Damn - 'Unbless' Perl objects
 Summary(pl.UTF-8):	Acme::Damn - "odbłogosławianie" obiektów Perla
 Name:		perl-Acme-Damn
-Version:	0.06
-Release:	5
+Version:	0.08
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	49967bcae23d97ee8db5eaa1bcca7d2d
+# Source0-md5:	37862c217ddea1756a4e43b82e6eebdb
 URL:		http://search.cpan.org/dist/Acme-Damn/
 BuildRequires:	perl-Test-Exception
 BuildRequires:	perl-devel >= 1:5.8.0
