@@ -4,7 +4,6 @@
 
 %define	pdir	Acme
 %define	pnam	Damn
-%include	/usr/lib/rpm/macros.perl
 Summary:	Acme::Damn - 'Unbless' Perl objects
 Summary(pl.UTF-8):	Acme::Damn - "odbłogosławianie" obiektów Perla
 Name:		perl-Acme-Damn
